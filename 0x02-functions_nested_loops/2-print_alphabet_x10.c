@@ -2,16 +2,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - print the alpha in lower case
- *
+ * print_alphabet_x10 - print the alpha 10 times
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	for (j = 'x''; j <= 10; j++)
-
-	{
+	int j;
 	char x;
 
+	for (j = '0'; j <= 9; j++)
+	{
 	for (x = 'a'; x <= 'z'; x++)
 		_putchar(x);
 
