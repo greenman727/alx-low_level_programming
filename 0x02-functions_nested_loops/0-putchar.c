@@ -1,4 +1,5 @@
-#include <stdio>
+#include <stdio.h>
+#include <main.h>
 /**
  * main - program to print string
  *
