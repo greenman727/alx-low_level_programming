@@ -3,7 +3,7 @@ include "main.h"
 /**
  * _isupper - check if a character is uppercase
  * @c: the character to be checked
- * Return: 1 if character is uppercase if not 0
+ * Return: 0
  */
 int _isupper(int c)
 {
