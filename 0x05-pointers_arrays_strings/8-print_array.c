@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - prints element of an array of integer
+ * print_array - prints n element of an array of integer
  * @a: int to check
  * @n: int to check
  * Return: Always 0
@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 	int x;
 
 	for (x = 0; x < n; x++)
-		if (n != n - 1)
+		if (x != n - 1)
 			printf("%d, ", a[x]);
 		else
 			printf("%d", a[x]);
