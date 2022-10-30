@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _syrncat - copies a string
+ * _strncat - copies a string
  * @dest: destination
  * @src: source
  * @n: an amount of bytes from src
