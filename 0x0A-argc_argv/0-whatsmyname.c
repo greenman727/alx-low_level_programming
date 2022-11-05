@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	prinf("The name of this file is: \n", argv[]);
+	printf("The name of this file is: %d\n", argv[]);
 
-	return 0;
+	return (0);
 }
