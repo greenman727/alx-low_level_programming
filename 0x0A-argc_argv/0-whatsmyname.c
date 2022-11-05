@@ -1,13 +1,17 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
  * main - a program to print the name of a file
+ * @argc: argument count
+ * @argv: argument vector
  *
- * Return: Always 0
+ * Return: Always zero
  */
 int main(int argc, char *argv[])
 {
-	printf("The name of this file is: %d\n", argv[]);
+	(void) argc;
+	printf("The name of this file is: %d\n", argv[0]);
 
 	return (0);
 }
