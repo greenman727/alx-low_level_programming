@@ -6,7 +6,7 @@
 /**
  * struct printer - a new struct type defining a printer
  * @symbol: a symbol representing a data type
- * print: a function pointer to print
+ * @print: a function pointer to print
  */
 typedef struct printer
 {
