@@ -22,7 +22,7 @@ typedef struct hash_node_s
  * struct hash_table_s - Hash table data structure
  * @size The size of the array.
  * @array : an array of the size.
- * each cell of this array is a pointer to the first node
+ * Each cell of this array is a pointer to the first node
  */
 typedef struct hash_table_s
 {
@@ -48,7 +48,7 @@ void hash_table_delete(hash_table_t *ht);
  */
 typedef struct shah_node_s
 {
-	cahr *key;
+	char *key;
 	char *value;
 	struct shash_node_s *sprev;
 	struct shash_node_s *next;
@@ -59,7 +59,7 @@ typedef struct shah_node_s
  * struct shash_table_s - sorted hash table data structure
  * @size: The size of the array.
  * @array: An array of size
- *
+ * Each cell of this array is a pointer to yhe first node of a linked list.
  * @shead: A pointer to the firdt element of the sorted linked list
  * @stail: A pointer to the last element of the sorted linked list
  */
